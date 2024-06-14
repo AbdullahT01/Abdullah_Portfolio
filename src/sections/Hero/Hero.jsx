@@ -20,7 +20,7 @@ function Hero() {
 
   return (
     <section id='Hero' className={styles.container}> 
-        <div className='styles.colorModeContainer'> 
+        <div className={styles.colorModeContainer}> 
           <img 
             className={styles.hero} 
             src= {heroImg} 
@@ -38,13 +38,14 @@ function Hero() {
             <h1> Abdullah<br/> Taha</h1>
             <h2>Current Software Engineering Student</h2>
             <span>
-                <a href="www.linkedin.com/in/abdullah-taha-b51430260" target='_blank'></a>
-                <img src={Link_Icon} alt="Linkedin Icon" />
-                
-                <a href="https://github.com/AbdullahT01" target='_blank'></a>
-                <img src={Github_Icon} alt="github Icon" />
+                <a href="https://www.linkedin.com/in/abdullah-taha-b51430260/" target='_blank'>
+                    <img src={Link_Icon} alt="Linkedin Icon" />
+                </a>
+                <a href="https://github.com/AbdullahT01" target='_blank'>
+                    <img src={Github_Icon} alt="github Icon" />
+                </a>
             </span>
-            <p> 
+            <p className={styles.description}> 
                 Driven by a passion for continuous learning and innovation, I am dedicated to improving
                 my skills in software engineering
             </p>
