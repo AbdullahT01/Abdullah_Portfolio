@@ -22,9 +22,26 @@
     transform: scale(1.05);
 }
 
-.container .projectsContainer{
+.projectsContainer{
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 30px;
 }
+
+@media (width >= 800px){
+    .projectsContainer{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        padding: 0 30px;
+        gap: 30px;
+    }
+
+    .container a p {
+        margin-top: 10px;
+        width: 250px;
+    }
+    
+}
+
