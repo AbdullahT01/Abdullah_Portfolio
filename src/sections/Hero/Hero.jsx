@@ -6,7 +6,7 @@ import Link_light from '../../assets/linkedin-light.svg';
 import Link_dark from '../../assets/linkedin-dark.svg';
 import Github_light from '../../assets/github-light.svg';
 import Github_dark from '../../assets/github-dark.svg';
-import CV from '../../assets/Abullah_Taha_CV.pdf';
+import CV from '../../assets/Abullah Taha - CV final (2).pdf';
 import { useTheme } from '../../common/ThemeContext';
 
 
